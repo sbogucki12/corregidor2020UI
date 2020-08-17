@@ -1,0 +1,178 @@
+@import "../utils/sassVariables.scss";
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,300;1,300&?family=Oswald&display=swap');
+
+#subPageHeaderContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border-bottom: 3px solid $color-primary-teal;
+    box-shadow: 0px 2px 5px $color-secondary-black;
+    height: 50px; 
+    background-color: $color-primary-black;   
+}
+
+#subPageHeaderLogo {
+    max-width: 40px;
+    max-height: 45px;
+    margin-left: 10%;
+}
+
+#subPageMainContainer { 
+    min-height: 100vh;
+    background-color: $color-secondary-black;
+}
+
+#subPageMainHomeButtonContainer {
+    padding-bottom: 3vh; 
+    margin-top: 2vh;  
+}
+
+#subPageMainHomeButton {
+    background-color: $color-primary-teal;
+    border: 1px solid $color-primary-black;
+    border-radius: 10%;
+    color: $color-secondary-black;
+    box-shadow: 0px 2px 5px $color-secondary-black;
+    padding: 10px;
+    margin: 1%;
+    &:hover {
+        color:$color-secondary-teal;
+        box-shadow: -2px 4px 5px $color-secondary-teal;
+    }
+}
+
+.servicesMainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 130vh;
+}
+
+.servicesMainBox {
+    width: 90%; 
+    background-color: $color-primary-gray;
+    border: 3px solid $color-secondary-teal;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    font-family: 'IBM Plex Serif', serif;
+
+    p, ul {
+        font-size: 1.7vh;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+}
+
+.servicesMainTitleBox {
+    width: 90%; 
+    border-bottom: 3px solid $color-secondary-teal;
+    align-self: center;
+}
+
+.servicesMainTitleText {
+    font-family: 'Oswald', sans-serif;
+}
+
+#servicesMainWebDev {
+    width: 90%; 
+    border-top: 3px solid $color-secondary-teal;
+    align-self: center;   
+}
+
+#servicesMainContactButtonContainer {
+    margin-bottom: 5%;
+}
+
+#servicesMainContactButton {
+    background-color: $color-primary-black;
+    color: $color-primary-teal;
+    border: 1px solid $color-secondary-teal;
+    box-shadow: 0px 2px 5px $color-secondary-black;
+    padding: 5px;
+    margin: 1%;
+    &:hover {
+        color:$color-primary-gray;
+        box-shadow: -2px 4px 5px $color-secondary-black;
+    }
+}
+
+#experienceMainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#experienceMainIconContainer {
+    display: flex; 
+    justify-content: space-around;
+    align-items: center; 
+    flex-wrap: wrap;   
+}
+
+.experienceMainIcon {
+    margin: 2%;
+}
+
+#contactMainContactForm {
+    display: flex; 
+    justify-content: center;
+    align-items: center;   
+    flex-direction: column;         
+    height: 100%;        
+    
+    label {
+        margin: 1%;
+    }
+    
+    textarea, input {        
+        width: 100%;
+        border:0; 
+        border-bottom:1px solid $color-primary-black;         
+        padding: 2%;     
+        background-color: $color-secondary-teal;   
+        box-shadow:0 0 2px 1px $color-secondary-black;
+        border-radius:10px;
+    }
+
+    button {
+        background-color: $color-primary-black;
+        color: $color-primary-teal;
+        padding: 7px;
+        margin: 5px;
+        border:2px solid $color-secondary-teal; 
+        border-radius: 5px;
+        &:hover {
+            color:$color-primary-gray;
+            box-shadow: -2px 4px 5px $color-secondary-black;
+        }
+    }
+}
+
+#contactMainSocialBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    a {
+        margin: 1%;
+    }
+}
+
+.contactMainSocialIconBox {
+    margin: 1%;
+}
+
+.contactMainSocialIcon {
+    color: $color-secondary-teal;
+    font-size: 45px;
+    &:hover { 
+        color: $color-primary-black;
+    }
+}
+
+

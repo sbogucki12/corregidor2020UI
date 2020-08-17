@@ -1,0 +1,130 @@
+@import '../../utils/sassVariables.scss';
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,300;1,300&?family=Oswald&display=swap');
+
+
+#homeMobileBackground {
+    background-color: $color-primary-gray;
+    height: 100%;    
+    min-height: 100vh;
+}
+
+#homeMobileHeader{
+    position: sticky;
+    z-index: 500;
+    top: 0;
+    height: 50px; 
+    background-color: $color-primary-black;    
+}
+
+#homeMobileHeaderContainer {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border-bottom: 3px solid $color-primary-teal;
+    box-shadow: 0px 2px 5px $color-secondary-black;
+}
+
+#mobileHeaderLogoImg {
+    max-width: 40px;
+    max-height: 45px;
+    margin-left: 10%;
+}
+
+#homeMobileAboutButtonContainer {
+    margin-right: 5%;
+}
+
+#homeMobileAboutButton {   
+    background-color: $color-primary-black;
+    border: 1px solid $color-primary-gray;    
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15%;
+    padding: 12%;
+    color: $color-primary-teal;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#mobileHomeContainer {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    min-height: 150vh;
+}
+
+#homeMobileTitleBox {
+    position: fixed; 
+    top: 10%; 
+}
+
+#homeMobileTitleText {
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 1px 1px $color-secondary-teal; 
+    margin-bottom: -5%;
+}
+
+#homeMobileTitleCaption {
+    font-family: 'IBM Plex Serif', serif;
+    font-style: italic;
+}
+
+#homeMobileLinksListBox {
+    background-color: $color-primary-black;
+    width: 90vw;
+    min-height: 300px;
+    border: 3px solid $color-primary-teal;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    z-index: 300;   
+    position: relative;
+}
+
+.homeMobileLinksListItem {    
+    background-color: $color-primary-gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 3%;
+    border: 3px solid $color-secondary-black;
+}
+
+.homeMobileLinkListText {
+    font-family: 'IBM Plex Serif', serif;
+}
+
+#homeMobileValuesBox {
+    position: fixed; 
+    bottom: 10%;
+    width: 90%; 
+    box-shadow: 0px 2px 5px $color-secondary-black;
+    border-radius: 5%;   
+}
+
+#homeMobileValuesBG {
+    background-image: url("./mobileGlobeBg.jpg");  
+    opacity: .7;  
+    background-size: cover;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 3px solid $color-secondary-teal;
+    border-radius: 5%;
+}
+
+#homeMobileValuesText {
+    color: white;
+    text-shadow: 1px 1px $color-primary-black;    
+    font-size: 3.5vw;    
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    z-index: 1;
+    font-family: 'IBM Plex Serif', serif;
+}

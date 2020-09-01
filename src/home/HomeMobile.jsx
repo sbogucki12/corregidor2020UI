@@ -22,6 +22,11 @@ const HomeMobile = (props) => {
 				<div id="homeMobileValuesBox">
 					<HomeMobileValues />
 				</div>
+				<footer id="homeMobileFooter">
+					<div>Duns: 117642352</div>
+					<div>CAGE: 8PPJ9</div>
+					<div>San Diego, CA USA</div>
+				</footer>
 			</div>
 		</main>
 	);

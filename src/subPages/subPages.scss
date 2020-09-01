@@ -13,6 +13,11 @@
     background-color: $color-primary-black;   
 }
 
+#subpageHeaderPosition {
+    position: sticky; 
+    top: 0;
+}
+
 #subPageHeaderLogo {
     max-width: 40px;
     max-height: 45px;
@@ -24,30 +29,13 @@
     background-color: $color-secondary-black;
 }
 
-#subPageMainHomeButtonContainer {
-    padding-bottom: 3vh; 
-    margin-top: 2vh;  
-}
-
-#subPageMainHomeButton {
-    background-color: $color-primary-teal;
-    border: 1px solid $color-primary-black;
-    border-radius: 10%;
-    color: $color-secondary-black;
-    box-shadow: 0px 2px 5px $color-secondary-black;
-    padding: 10px;
-    margin: 1%;
-    &:hover {
-        color:$color-secondary-teal;
-        box-shadow: -2px 4px 5px $color-secondary-teal;
-    }
-}
 
 .servicesMainContainer {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 130vh;
+    margin-top: 5%;
+    padding-bottom: 20%;    
 }
 
 .servicesMainBox {
@@ -84,7 +72,7 @@
 }
 
 #servicesMainContactButtonContainer {
-    margin-bottom: 5%;
+    margin-bottom: 1%;
 }
 
 #servicesMainContactButton {
@@ -175,4 +163,39 @@
     }
 }
 
+#qualityProcessDiagram {
+    border:  3px solid $color-primary-teal;
+    border-radius: 5%; 
+    max-width: 90%;
+}
 
+#subpageFooterPosition {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#subPageMainHomeButtonContainer {    
+    margin-top: 2vh; 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%; 
+    background-color: $color-primary-black;
+    border-top: 3px solid $color-secondary-teal;
+}
+
+#subPageMainHomeButton {
+    background-color: $color-primary-teal;
+    border: 1px solid $color-primary-black;
+    border-radius: 10%;
+    color: $color-secondary-black;
+    box-shadow: 0px 2px 5px $color-secondary-black;
+    padding: 10px;
+    margin: 5px;
+    &:hover {
+        color:$color-secondary-teal;
+        box-shadow: -2px 4px 5px $color-secondary-teal;
+    }
+}

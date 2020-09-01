@@ -12,6 +12,11 @@ const HomeDesktop = (props) => {
 			<div id="homeDesktopBody">
 				<HomeDeskTopBody setShowRoutes={props.setShowRoutes} />
 			</div>
+			<footer id="homeDesktopFooter">
+				<div>DUNS: 117642352 </div>
+				<div>CAGE: 8PPJ9</div>
+				<div>San Diego, CA USA</div>
+			</footer>
 		</div>
 	);
 }

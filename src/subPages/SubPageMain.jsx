@@ -7,6 +7,8 @@ import ContactMain from './contact/ContactMain';
 import AboutMain from './about/AboutMain';
 import ExperienceMain from './experience/ExperienceMain';
 import constants from '../utils/constants';
+import ValuesMain from './values/ValuesMain';
+import QualityMain from './quality/QualityMain';
 
 const SubPageMain = (props) => {
     const location =  useLocation();
@@ -25,13 +27,19 @@ const SubPageMain = (props) => {
         case "/experience":
             view = <ExperienceMain />
             break;
+        case "/values":
+            view = <ValuesMain />
+            break;
+        case "/quality":
+            view = <QualityMain />
+            break;
         default:
             view = <AboutMain />
     }
     
     return (
 		<div id="subPageMainContainer">
-			<header>
+			<header id="subpageHeaderPosition">
 				<SubPageHeader />
 			</header>
 			<div>

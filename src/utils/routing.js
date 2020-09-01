@@ -21,6 +21,12 @@ const Routing = props => (
             <Route exact path="/about">
                 <SubPageMain />
             </Route>
+            <Route exact path="/values">
+                <SubPageMain />
+            </Route>
+            <Route exact path="/quality">
+                <SubPageMain />
+            </Route>
         </Switch>
     </Fragment>)
 

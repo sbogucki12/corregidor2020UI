@@ -3,9 +3,11 @@ import './homeDesktop.scss';
 import HomeDesktopTopRow from './topRow/HomeDesktopTopRow';
 import HomeDesktopCardRow from './cardRow/HomeDesktopCardRow';
 import HomemDesktopValueRow from './valueRow/HomeDesktopValueRow';
+import HomeDesktopInclusionBox from './policyRow/HomeDesktopInclusionBox';
+import HomeDesktopQualityBox from './policyRow/HomeDesktopQualityBox';
 
 const HomeDesktopBody = (props) => {
-    return (
+	return (
 		<main id="homeDesktopBodyContainer">
 			<div></div>
 			<div className="homeDesktopBodyRow">
@@ -15,6 +17,18 @@ const HomeDesktopBody = (props) => {
 			<div></div>
 			<div className="homeDesktopBodyRow">
 				<HomeDesktopCardRow setShowRoutes={props.setShowRoutes} />
+			</div>
+			<div></div>
+			<div></div>
+			<div id="homeDesktopPolicyRow">
+				<div></div>
+				<div className="homeDesktopPolicyBoxes">
+					<HomeDesktopInclusionBox setShowRoutes={props.setShowRoutes} />
+				</div>
+				<div className="homeDesktopPolicyBoxes">
+					<HomeDesktopQualityBox setShowRoutes={props.setShowRoutes} />
+				</div>
+				<div></div>
 			</div>
 			<div></div>
 			<div></div>

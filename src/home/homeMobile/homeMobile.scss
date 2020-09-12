@@ -71,6 +71,19 @@
     font-style: italic;
 }
 
+#homeMobileSysAgileQuote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba($color-secondary-teal, .5);
+    margin: 5px;
+    border: 2px solid rgba($color-primary-black, .5); 
+    border-radius: 2%;  
+    color: $color-primary-black;
+    box-shadow: 0px 2px 5px $color-secondary-black;
+    font-family: 'IBM Plex Serif', serif;    
+}
+
 #homeMobileLinksListBox {
     background-color: $color-primary-black;
     margin-right: 5vw;    

@@ -5,21 +5,30 @@ import constants from '../../../utils/constants';
 
 const HomeDesktopTopRow = () => {
     return (
-		<div id="homeDesktopTopRowContainer">
-			<div />
-			<div>
-				<div id="homeDesktopTopRowTitle">{constants.CORREGIDOR}</div>
-				<div id="homeDesktopTopRowCaption">{constants.TECHNOLOGYSERVICES}</div>
+		<div>
+			<div id="homeDesktopTopRowContainer">
+				<div />
+				<div>
+					<div id="homeDesktopTopRowTitle">
+						<h1>{constants.CORREGIDOR}</h1>
+					</div>
+					<div id="homeDesktopTopRowCaption">
+						<h4>{constants.TECHNOLOGYSERVICES}</h4>
+					</div>
+				</div>
+				<div>
+					<img
+						src={logo}
+						id="homeDesktopTopRowLogoImg"
+						alt={constants.CORREGIDORTECHNOLOGYSERVICESLOGO}
+						title={constants.CORREGIDORTECHNOLOGYSERVICESLOGO}
+					/>
+				</div>
+				<div />
 			</div>
-			<div>
-				<img
-					src={logo}
-					id="homeDesktopTopRowLogoImg"
-					alt={constants.CORREGIDORTECHNOLOGYSERVICESLOGO}
-					title={constants.CORREGIDORTECHNOLOGYSERVICESLOGO}
-				/>
+			<div id="homeDesktopTopRowQuoteContainer">
+				<caption>{constants.SYSENGAGILEQUOTE}</caption>
 			</div>
-			<div />
 		</div>
 	);
 };

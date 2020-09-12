@@ -15,7 +15,11 @@ const HomeMobile = (props) => {
 				<div id="homeMobileTitleBox">
 					<h1 id="homeMobileTitleText">{constants.CORREGIDOR}</h1>
 					<h3 id="homeMobileTitleCaption">{constants.TECHNOLOGYSERVICES}</h3>
+					<div id="homeMobileSysAgileQuote">
+						<h6 style={{ margin: '5px' }}>{constants.SYSENGAGILEQUOTE} </h6>
+					</div>
 				</div>
+
 				<div>
 					<HomeMobileLinksList setShowRoutes={props.setShowRoutes} />
 				</div>

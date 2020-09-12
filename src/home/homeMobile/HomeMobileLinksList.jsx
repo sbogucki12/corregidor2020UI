@@ -17,7 +17,7 @@ const HomeMobileLinksList = (props) => {
 						titles={constants.MISSIONICON}
 					/>
 				</div>
-				<div className="homeMobileLinkListText">{constants.MISSION}</div>
+				<div className="homeMobileLinkListText">{constants.SERVICES}</div>
 				<Link to="/services">
 					<div onClick={() => props.setShowRoutes(true)}>
 						<FontAwesomeIcon

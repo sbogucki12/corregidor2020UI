@@ -44,6 +44,7 @@ const constants = {
     SENDING: "Sending...",
     SERVICES: "Services",
     SUBMIT: "Submit",
+    SYSENGAGILEQUOTE: "Enabling the rapidity of Agile processes with the control of professional System Engineering",
     TECHNOLOGIES: "Technologies",
     TECHNOLOGYSERVICES: "Technology Services",
     TWITTERLINKTEXT: "Link to Corregidor Tech on Twitter",

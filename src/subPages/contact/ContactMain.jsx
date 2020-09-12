@@ -124,7 +124,7 @@ const ContactMain = () => {
 
 							<div style={{ alignSelf: 'center' }}>
 								<ReCAPTCHA
-									sitekey=""
+									sitekey="6LdSgbsZAAAAACVEzdk-q2evcLlyVHZz2FlAnnR6"
 									onChange={onChange}
 									onExpired={handleExpired}
 									alt={constants.CAPTCHA}									

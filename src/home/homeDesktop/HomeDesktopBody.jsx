@@ -32,7 +32,7 @@ const HomeDesktopBody = (props) => {
 			</div>
 			<div></div>
 			<div></div>
-			<div className="homeDesktopBodyRow">
+			<div className="homeDesktopBodyRow" style={{marginBottom: "30px"}}>
 				<HomemDesktopValueRow />
 			</div>
 			<div></div>

@@ -9,6 +9,9 @@ import ExperienceMain from './experience/ExperienceMain';
 import constants from '../utils/constants';
 import ValuesMain from './values/ValuesMain';
 import QualityMain from './quality/QualityMain';
+import ServicesEngineering from './services/ServicesEngineering';
+import WebDev from './services/WebDev';
+import ProposalWriting from './services/ProposalWriting';
 
 const SubPageMain = (props) => {
     const location =  useLocation();
@@ -32,6 +35,15 @@ const SubPageMain = (props) => {
             break;
         case "/quality":
             view = <QualityMain />
+            break;
+        case "/servicesengineering":
+            view = <ServicesEngineering />
+            break;
+        case "/webdevelopment":
+            view = <WebDev />
+            break;
+        case "/proposalwriting":
+            view = <ProposalWriting />
             break;
         default:
             view = <AboutMain />

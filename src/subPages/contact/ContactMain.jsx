@@ -81,9 +81,9 @@ const ContactMain = () => {
 
 	return (
 		<div id="experienceMainContainer">
-			<div className="servicesMainBox">
-				<div className="servicesMainTitleBox">
-					<h1 className="servicesMainTitleText">{constants.CONTACT}</h1>
+			<div className="servicesEngineeringBox">
+				<div className="servicesEngineeringTitleBox">
+					<h1 className="servicesEngineeringTitleText">{constants.CONTACT}</h1>
 				</div>
 				<div>
 					<div>

@@ -27,7 +27,7 @@ const HomeDesktopTopRow = () => {
 				<div />
 			</div>
 			<div id="homeDesktopTopRowQuoteContainer">
-				<caption>{constants.SYSENGAGILEQUOTE}</caption>
+				<span>{constants.SYSENGAGILEQUOTE}</span>
 			</div>
 		</div>
 	);

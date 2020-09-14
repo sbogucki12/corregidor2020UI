@@ -55,9 +55,9 @@ const iconView = icons.map((icon) => (
 const ExperienceMain = () => {
     return (
 		<div id="experienceMainContainer">
-			<div className="servicesMainBox">
-				<div className="servicesMainTitleBox">
-					<h1 className="servicesMainTitleText">{constants.TECHNOLOGIES}</h1>
+			<div className="servicesEngineeringBox">
+				<div className="servicesEngineeringTitleBox">
+					<h1 className="servicesEngineeringTitleText">{constants.TECHNOLOGIES}</h1>
 				</div>
 				<div>
 					<h4>
@@ -75,7 +75,7 @@ const ExperienceMain = () => {
 				<div id="experienceMainIconContainer">{iconView}</div>
 				<div id="servicesMainContactButtonContainer">
 					<Link to="/contact">
-						<button id="servicesMainContactButton" alt={constants.CONTACTCTS} title={constants.CONTACTCTS}>
+						<button id="servicesEngineeringContactButton" alt={constants.CONTACTCTS} title={constants.CONTACTCTS}>
 							{constants.CONTACTCTS}
 						</button>
 					</Link>

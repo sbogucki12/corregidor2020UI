@@ -6,9 +6,9 @@ import constants from '../../utils/constants';
 const AboutMain = () => {
     return (
 		<div id="experienceMainContainer">
-			<div className="servicesMainBox">
-				<div className="servicesMainTitleBox">
-					<h3 className="servicesMainTitleText">{constants.CORREGIDORTECHNOLOGYSERVICES}</h3>
+			<div className="servicesEngineeringBox">
+				<div className="servicesEngineeringTitleBox">
+					<h3 className="servicesEngineeringTitleText">{constants.CORREGIDORTECHNOLOGYSERVICES}</h3>
 				</div>
 				<div>
 					<h5>Corregidor Technology Services is a service disabled-owned veteran small business.</h5>
@@ -23,9 +23,9 @@ const AboutMain = () => {
 						process needs.
 					</p>
 				</div>
-				<div id="servicesMainContactButtonContainer">
+				<div id="servicesEngineeringContactButtonContainer">
 					<Link to="/contact">
-						<button id="servicesMainContactButton" alt={constants.CONTACTCTS} title={constants.CONTACTCTS}>
+						<button id="servicesEngineeringContactButton" alt={constants.CONTACTCTS} title={constants.CONTACTCTS}>
 							{constants.CONTACTCTS}
 						</button>
 					</Link>

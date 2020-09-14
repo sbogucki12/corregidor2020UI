@@ -29,16 +29,118 @@
     background-color: $color-secondary-black;
 }
 
+#servicesMainContainer {
+    display: flex; 
+    justify-content: center;
+    align-items: center;     
+}
 
-.servicesMainContainer {
+#servicesMainBox {
+    background-color: $color-primary-gray;
+    width: 90%;
+    border: 2px solid $color-primary-black;
+    border-radius: 5%;
+    box-shadow: 0px 2px 5px $color-primary-teal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    margin-top: 10vh;   
+    margin-bottom: 10vh;
+}
+
+#servicesMainTitle {
+    border-bottom: 3px solid $color-secondary-teal;
+    width: 70%;
+    font-family: 'Oswald', sans-serif;
+}
+
+#servicesMainCardRow {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.servicesMainCard {
+    background-color: $color-primary-black;
+    margin: 10px;
+    color: $color-primary-gray;
+    border: 2px solid $color-primary-teal;
+    border-radius: 5%;
+    box-shadow: 0px 2px 5px $color-primary-black;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    width: 225px; 
+    height: 175px;    
+}
+
+.servicesCardTitle {
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.servicesCardIcon {
+    margin: 5%;
+}
+
+.servicesCardButtonContainer {
+    margin: 5%;
+}
+
+.servicesCardButton {
+    background-color: $color-primary-gray;
+    color: $color-primary-black;
+    border: 1px solid $color-secondary-black;
+    box-shadow: 0px 2px 5px $color-secondary-teal;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;    
+    &:hover {        
+        box-shadow: -2px 4px 5px $color-primary-teal;
+        font-weight: bold;
+    }
+}
+
+#backToServicesContainer {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#backToServicesBox {
+    background-color: $color-primary-black;
+    border: 2px solid $color-primary-gray;
+    border-radius: 5%;
+    width: 60px;
+    height: 45px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 5px $color-secondary-teal;
+}
+
+.backToServicesIcon {
+    color: $color-secondary-teal;
+    font-size: 30px;
+    &:hover { 
+        font-weight: bold;
+        color: $color-primary-gray;
+    }
+}
+
+.servicesEngineeringContainer {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 5%;
-    padding-bottom: 20%;    
+    padding-bottom: 20%; 
+    flex-direction: column;   
 }
 
-.servicesMainBox {
+.servicesEngineeringBox {
     width: 90%; 
     background-color: $color-primary-gray;
     border: 3px solid $color-secondary-teal;
@@ -55,33 +157,35 @@
     }
 }
 
-.servicesMainTitleBox {
+.servicesEngineeringTitleBox {
     width: 90%; 
     border-bottom: 3px solid $color-secondary-teal;
     align-self: center;
 }
 
-.servicesMainTitleText {
+.servicesEngineeringTitleText {
     font-family: 'Oswald', sans-serif;
 }
 
-#servicesMainWebDev {
+#contactUsLine {
     width: 90%; 
-    border-top: 3px solid $color-secondary-teal;
+    border-top: 3px solid $color-primary-black;
     align-self: center;   
 }
 
-#servicesMainContactButtonContainer {
+#servicesEngineeringContactButtonContainer {
     margin-bottom: 1%;
+    display: flex; 
+    flex-direction: column;
 }
 
-#servicesMainContactButton {
+#servicesEngineeringContactButton {
     background-color: $color-primary-black;
     color: $color-primary-teal;
     border: 1px solid $color-secondary-teal;
     box-shadow: 0px 2px 5px $color-secondary-black;
     padding: 5px;
-    margin: 1%;
+    margin: 10px;
     &:hover {
         color:$color-primary-gray;
         box-shadow: -2px 4px 5px $color-secondary-black;

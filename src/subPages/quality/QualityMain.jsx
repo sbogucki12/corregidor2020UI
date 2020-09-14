@@ -6,10 +6,10 @@ import qualityImage from './qualitymanagement.JPG';
 
 const QualityMain = (props) => {
 	return (
-		<div className="servicesMainContainer">
-			<div className="servicesMainBox">
-				<div className="servicesMainTitleBox">
-					<h1 className="servicesMainTitleText">{constants.QUALITY}</h1>
+		<div className="servicesEngineeringContainer">
+			<div className="servicesEngineeringBox">
+				<div className="servicesEngineeringTitleBox">
+					<h1 className="servicesEngineeringTitleText">{constants.QUALITY}</h1>
 				</div>
 				<h4>
 					Feedback-driven, documented processes

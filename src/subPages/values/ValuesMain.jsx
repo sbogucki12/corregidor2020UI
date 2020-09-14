@@ -4,10 +4,10 @@ import constants from "../../utils/constants";
 
 const ValuesMain = (props) => {
 	return (
-		<div className="servicesMainContainer">
-			<div className="servicesMainBox">
-				<div className="servicesMainTitleBox">
-					<h1 className="servicesMainTitleText">{constants.VALUES}</h1>
+		<div className="servicesEngineeringContainer">
+			<div className="servicesEngineeringBox">
+				<div className="servicesEngineeringTitleBox">
+					<h1 className="servicesEngineeringTitleText">{constants.VALUES}</h1>
 				</div>                
                 <p>It is the mission of Corregidor Technology Services to be known among new entrants to the technology workforce as an organization that will provide opportunity to those with the intellectual curiosity and dedication to learn and apply new skills and aptitudes.  From another aspect, Corregidor Technology Services is a catalyst for positive change by striving to drive democratic practices into government processes by open-sourcing development initiatives, sharing data for community analysis, and modernizing and making accessible government technologies. </p>
                 <p>A portion of all earnings achieved by Corregidor Technology Services is donated to charitable organizations that provide scholarships to students who would otherwise struggle to afford a university education.</p>

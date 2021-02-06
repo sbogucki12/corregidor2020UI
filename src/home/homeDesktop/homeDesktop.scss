@@ -1,299 +1,394 @@
-@import "../../utils/sassVariables.scss";
+@import '../../utils/sassVariables.scss';
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,300;1,300&?family=Oswald&display=swap');
 
-
 #homeDesktopHeader {
-    position: sticky; 
-    top: 0;
-    background-color: $color-primary-black;
-    color: $color-primary-gray;
-    min-height: 50px;
-    max-width: 100vw;
-    overflow: hidden;
-    border-bottom: 2px solid $color-secondary-teal;
+	position: sticky;
+	top: 0;
+	background-color: $color-primary-black;
+	color: $color-primary-gray;
+	min-height: 50px;
+	max-width: 100vw;
+	overflow: hidden;
+	border-bottom: 2px solid $color-secondary-teal;
 }
 
 #homeDesktopHeaderContainer {
-    display: grid;
-    grid-template-columns: 1% auto 80% auto 1%;   
+	display: grid;
+	grid-template-columns: 1% auto 80% auto 1%;
 }
 
 #homeDesktopHeaderLeftLogo {
-    color: $color-primary-teal;
-    display: flex;
-    align-content: center;
-    justify-items: center; 
-    height: 100%;
-    margin: 5px;
+	color: $color-primary-teal;
+	display: flex;
+	align-content: center;
+	justify-items: center;
+	height: 100%;
+	margin: 5px;
 }
 
 #homeDesktopHeaderLeftLogoImg {
-    max-width: 45px;
-    max-height: 35px;
+	max-width: 45px;
+	max-height: 35px;
 }
 
 #desktopHeaderAboutButtonContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
 }
 
 #desktopHeaderAboutButton {
-    margin-top: 5px;
-    background-color: $color-primary-black;
-    border: 2px solid $color-secondary-teal;
-    font-family: Arial, Helvetica, sans-serif;
-    border-radius: 15%;
-    padding: 10%;
-    color: $color-primary-gray;
-    overflow: hidden;
-    white-space: nowrap;
-    &:hover {
-        color:$color-primary-teal;
-        box-shadow: -2px 4px 5px $color-secondary-black;
-    }
+	margin-top: 5px;
+	background-color: $color-primary-black;
+	border: 2px solid $color-secondary-teal;
+	font-family: Arial, Helvetica, sans-serif;
+	border-radius: 15%;
+	padding: 10%;
+	color: $color-primary-gray;
+	overflow: hidden;
+	white-space: nowrap;
+	&:hover {
+		color: $color-primary-teal;
+		box-shadow: -2px 4px 5px $color-secondary-black;
+	}
 }
 
 #homeDesktopBody {
-    background-color: $color-primary-gray;   
-    overflow: hidden;   
+	background-color: $color-primary-gray;
+	overflow: hidden;
 }
 
 #homeDesktopBodyContainer {
-    display: grid;
-    grid-template-columns: 1% auto 1%;
-    min-height: 100vh; 
+	display: grid;
+	grid-template-columns: 1% auto 1%;
+	min-height: 100vh;
 }
 
 .homeDesktopBodyRow {
-    background-color: $color-secondary-black;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    border-radius: 2%;  
+	background-color: $color-secondary-black;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	border-radius: 2%;
 }
 
 #homeDesktopTopRowContainer {
-    display: grid;
-    grid-template-columns: 1% auto auto 1%;
-    align-items: center;
-    justify-content: center;    
+	display: grid;
+	grid-template-columns: 1% auto auto 1%;
+	align-items: center;
+	justify-content: center;
 }
 
-#homeDesktopTopRowTitle {    
-    font-size: xx-large;
-    color: $color-secondary-teal;   
-    font-family: 'Oswald', sans-serif;
-    font-weight: bold;    
+#homeDesktopTopRowTitle {
+	font-size: xx-large;
+	color: $color-secondary-teal;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
 }
 
-#homeDesktopTopRowCaption {    
-    font-size: large;
-    font-family: 'IBM Plex Serif', serif;
-    font-style: italic;
-    padding-left: 80px;
-    color: $color-primary-gray;
-    margin-top: -30px;    
+#homeDesktopTopRowCaption {
+	font-size: large;
+	font-family: 'IBM Plex Serif', serif;
+	font-style: italic;
+	padding-left: 80px;
+	color: $color-primary-gray;
+	margin-top: -30px;
 }
 
 #homeDesktopTopRowLogoImg {
-    max-height: 250px;
-    margin-top: 10px;
+	max-height: 250px;
+	margin-top: 10px;
 }
 
-#homeDesktopTopRowQuoteContainer {     
-    display: flex; 
-    align-content: center; 
-    justify-content: center;
-    background-color: $color-primary-teal;
-    margin-top: 25px;
-    border: 2px solid $color-primary-black;
-    border-radius: 2%;
-    padding: 5px;
-    font-family: 'IBM Plex Serif', serif;
-    font-style: italic;
-    font-weight: bold;   
+#homeDesktopTopRowQuoteContainer {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	background-color: $color-primary-teal;
+	margin-top: 25px;
+	border: 2px solid $color-primary-black;
+	border-radius: 2%;
+	padding: 5px;
+	font-family: 'IBM Plex Serif', serif;
+	font-style: italic;
+	font-weight: bold;
 }
 
 #homeDesktopCardRowContainer {
-    display: grid;
-    grid-template-columns: auto 25% 25% 25% auto;
-    align-content: center;
-    column-gap: 5%;
-    height: 100%;
+	display: grid;
+	grid-template-columns: auto 25% 25% 25% auto;
+	align-content: center;
+	column-gap: 5%;
+	height: 100%;
 }
 
 .homeDesktopCardRowCard {
-    background-color: $color-primary-gray;    
-    border: 2px solid $color-secondary-teal;
-    border-radius: 5%;
-    min-height: 250px;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    webkit-animation: fadein 6s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 6s; /* Firefox < 16 */
-    -ms-animation: fadein 6s; /* Internet Explorer */
-    -o-animation: fadein 6s; /* Opera < 12.1 */
-    animation: fadein 6s;
+	background-color: $color-primary-gray;
+	border: 2px solid $color-secondary-teal;
+	border-radius: 5%;
+	min-height: 250px;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	webkit-animation: fadein 6s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 6s; /* Firefox < 16 */
+	-ms-animation: fadein 6s; /* Internet Explorer */
+	-o-animation: fadein 6s; /* Opera < 12.1 */
+	animation: fadein 6s;
 }
 
 @keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }
 
 /* Firefox < 16 */
 @-moz-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }
 
 /* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }
 
 /* Internet Explorer */
 @-ms-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }
 
 /* Opera < 12.1 */
 @-o-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }
 
 .HomeCardsContainer {
-    display: flex; 
-    justify-content: center;
-    align-items: center;   
-    flex-direction: column; 
-    min-height: 250px;    
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	min-height: 250px;
 }
 
 .homeDesktopCardButton {
-    background-color: $color-primary-black;
-    border: 2px solid $color-secondary-teal;
-    font-family: Arial, Helvetica, sans-serif;
-    border-radius: 5%;
-    padding: 5%;
-    color: $color-primary-teal;
-    overflow: hidden;
-    white-space: nowrap;
-    &:hover {
-        color:$color-primary-gray;
-        box-shadow: -2px 4px 5px $color-secondary-black;
-    }
+	background-color: $color-primary-black;
+	border: 2px solid $color-secondary-teal;
+	font-family: Arial, Helvetica, sans-serif;
+	border-radius: 5%;
+	padding: 5%;
+	color: $color-primary-teal;
+	overflow: hidden;
+	white-space: nowrap;
+	&:hover {
+		color: $color-primary-gray;
+		box-shadow: -2px 4px 5px $color-secondary-black;
+	}
 }
 
 .homeDesktopCardIcon {
-    color: $color-secondary-teal;
-    font-size: 4vh;    
+	color: $color-secondary-teal;
+	font-size: 4vh;
 }
 
 .homeDesktopCardText {
-    color: $color-primary-black;
-    white-space: nowrap;
-    font-family: 'IBM Plex Serif', serif;
+	color: $color-primary-black;
+	white-space: nowrap;
+	font-family: 'IBM Plex Serif', serif;
 }
 
 #homeDesktopPolicyRow {
-    display: grid;
-    grid-template-columns: 5% 45% 45% 5%;
-    background-color: $color-secondary-black;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    border-radius: 2%;
-    align-items: center;
-    justify-items: center;
+	display: grid;
+	grid-template-columns: 5% 45% 45% 5%;
+	background-color: $color-secondary-black;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	border-radius: 2%;
+	align-items: center;
+	justify-items: center;
 }
 
 .homeDesktopPolicyBoxes {
-    width: 70%;
-    background-color: $color-primary-black;
-    border: 1px solid $color-primary-teal;
-    border-radius: 3%;
-    margin-top: 2%;
-    margin-bottom: 2%;    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 250px; 
+	width: 70%;
+	background-color: $color-primary-black;
+	border: 1px solid $color-primary-teal;
+	border-radius: 3%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 250px;
 }
 
 .homeDesktopPolicyContainer {
-    display: flex; 
-    flex-direction: column;    
-    width: 100%;
-    color: $color-primary-gray;    
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	color: $color-primary-gray;
 }
 
 .homeDesktopPolicyTitleRow {
-    color: $color-primary-teal;
-    font-family: 'IBM Plex Serif', serif;
+	color: $color-primary-teal;
+	font-family: 'IBM Plex Serif', serif;
 }
 
 .homeDesktopPolicyCaptionRow {
-    margin: 1%;
-    font-family: 'Oswald', sans-serif;
+	margin: 1%;
+	font-family: 'Oswald', sans-serif;
 }
 
-.homeDesktopPolicyButton {    
-    background-color: $color-secondary-black;
-    border: 2px solid $color-primary-teal;
-    font-family: Arial, Helvetica, sans-serif;
-    border-radius: 5%;   
-    padding: 1%; 
-    color: $color-primary-gray;
-    overflow: hidden;
+.homeDesktopPolicyButton {
+	background-color: $color-secondary-black;
+	border: 2px solid $color-primary-teal;
+	font-family: Arial, Helvetica, sans-serif;
+	border-radius: 5%;
+	padding: 1%;
+	color: $color-primary-gray;
+	overflow: hidden;
+	white-space: nowrap;
+	box-shadow: -2px 2px 5px $color-secondary-teal;
+	&:hover {
+		color: $color-primary-teal;
+		border: 2px solid $color-secondary-teal;
+		box-shadow: -2px 2px 5px $color-primary-gray;
+	}
+}
+
+#homeDesktopBlogRow {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	min-height: 250px;
+	margin-bottom: 1%;
+}
+
+#homeDesktopBlogRowContainer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	width: 90%;
+}
+
+#homeDesktopBlogRowLeftBox {
+	height: 1rem;
+	background-color: $color-primary-black;
+	flex-grow: 1;
+	border-left: 3px solid $color-secondary-teal;
+	border-top: 3px solid $color-secondary-teal;
+	border-bottom: 3px solid $color-secondary-teal;
+	border-top-left-radius: 10%;
+	border-bottom-left-radius: 10%;
+}
+
+#homeDesktopBlogRowMiddleBox {
+	min-height: 250px;
+	background-color: $color-secondary-black;
+	flex-grow: 3;
+	border: 5px solid $color-primary-teal;
+	border-radius: 5%;
+	box-shadow: 0px 10px 5px $color-primary-black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#homeDesktopBlogRowMiddleBoxTitleContainer {
+	display: flex;
+	align-items: center;
     white-space: nowrap;
-    box-shadow: -2px 2px 5px $color-secondary-teal;
-    &:hover {
-        color:$color-primary-teal;
-        border: 2px solid $color-secondary-teal;
-        box-shadow: -2px 2px 5px $color-primary-gray;
-    }
+}
+
+#homeDesktopBlogRowBlogTitleText {
+    color: $color-primary-black;
+	text-shadow: -1px -1px 0 $color-primary-teal, 1px -1px 0 $color-primary-teal, -1px 1px 0 $color-primary-teal, 1px 1px 0 $color-primary-teal;
+    margin-left: 5%;  
+}
+
+#blogEntryList {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.blogEntryTitle {
+    color: $color-primary-teal;
+}
+
+.blogEntryAuthor {
+    color: $color-secondary-teal;
+}
+
+#homeDesktopBlogRowRightBox {
+	height: 1rem;
+	background-color: $color-primary-black;
+	flex-grow: 1;
+	border-right: 3px solid $color-secondary-teal;
+	border-top: 3px solid $color-secondary-teal;
+	border-bottom: 3px solid $color-secondary-teal;
+	border-top-right-radius: 10%;
+	border-bottom-right-radius: 10%;
 }
 
 #homeDesktopBGVideo {
-    max-width: 420px;       
-    margin-top: 1%;
-    max-height: 300px;
-    transform: scaleX(1.75);
-    opacity: .4;
-    z-index: 1;
-    border: 2px solid $color-primary-teal;
-    border-radius: 5%;   
-    margin-bottom: .2%; 
+	max-width: 420px;
+	margin-top: 1%;
+	max-height: 300px;
+	transform: scaleX(1.75);
+	opacity: 0.4;
+	z-index: 1;
+	border: 2px solid $color-primary-teal;
+	border-radius: 5%;
+	margin-bottom: 0.2%;
 }
 
 #homeDesktopValueText {
-    color: $color-primary-gray;
-    position: absolute;
-    font-size: 1.20rem;
-    top: 50%; 
-    width: 100%; 
-    text-align: center; 
-    font-family: 'IBM Plex Serif', serif;
+	color: $color-primary-gray;
+	position: absolute;
+	font-size: 1.2rem;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	font-family: 'IBM Plex Serif', serif;
 }
 
 #homeDesktopFooter {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: $color-primary-black;
-    border-top: 2px solid $color-secondary-teal;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-items: center;
-    align-items: center;
-    color: $color-primary-gray;
-    font-family: 'IBM Plex Serif', serif;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: $color-primary-black;
+	border-top: 2px solid $color-secondary-teal;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	justify-items: center;
+	align-items: center;
+	color: $color-primary-gray;
+	font-family: 'IBM Plex Serif', serif;
 }
-
-
-

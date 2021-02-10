@@ -1,12 +1,20 @@
 import React from 'react';
 import './homeMobile.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBolt, faEnvelope, faCheckCircle, faAngleRight, faUsers, faBullseye } from '@fortawesome/free-solid-svg-icons';
-import { Link } from "react-router-dom";
-import constants from "../../utils/constants";
+import {
+	faBolt,
+	faEnvelope,
+	faCheckCircle,
+	faAngleRight,
+	faUsers,
+	faBullseye,
+	faQuoteLeft,
+} from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
+import constants from '../../utils/constants';
 
 const HomeMobileLinksList = (props) => {
-    return (
+	return (
 		<div id="homeMobileLinksListBox">
 			<div className="homeMobileLinksListItem">
 				<div>
@@ -61,6 +69,27 @@ const HomeMobileLinksList = (props) => {
 				</div>
 				<div className="homeMobileLinkListText">{constants.CONTACT}</div>
 				<Link to="/contact">
+					<div onClick={() => props.setShowRoutes(true)}>
+						<FontAwesomeIcon
+							icon={faAngleRight}
+							className="homeDesktopCardIcon"
+							alt={constants.CLICKHERE}
+							title={constants.CLICKHERE}
+						/>
+					</div>
+				</Link>
+			</div>
+			<div className="homeMobileLinksListItem">
+				<div>
+					<FontAwesomeIcon
+						icon={faQuoteLeft}
+						className="homeDesktopCardIcon"
+						alt={constants.BLOG}
+						title={constants.BLOG}
+					/>
+				</div>
+				<div className="homeMobileLinkListText">{constants.BLOG}</div>
+				<Link to="/blog">
 					<div onClick={() => props.setShowRoutes(true)}>
 						<FontAwesomeIcon
 							icon={faAngleRight}

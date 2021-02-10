@@ -1,11 +1,11 @@
-import React, { Fragment } from "react";
-import { Switch, Route } from "react-router-dom";
+import React, { Fragment } from 'react';
+import { Switch, Route } from 'react-router-dom';
 import App from '../app/App';
-import SubPageMain from "../subPages/SubPageMain";
+import SubPageMain from '../subPages/SubPageMain';
 
 const Routing = (props) => (
 	<Fragment>
-		<Switch>			
+		<Switch>
 			<Route exact path="/">
 				<App />
 			</Route>
@@ -34,6 +34,9 @@ const Routing = (props) => (
 				<SubPageMain />
 			</Route>
 			<Route exact path="/proposalwriting">
+				<SubPageMain />
+			</Route>
+			<Route exact path="/blog">
 				<SubPageMain />
 			</Route>
 		</Switch>

@@ -5,6 +5,7 @@ import HomeDesktopCardRow from './cardRow/HomeDesktopCardRow';
 import HomemDesktopValueRow from './valueRow/HomeDesktopValueRow';
 import HomeDesktopInclusionBox from './policyRow/HomeDesktopInclusionBox';
 import HomeDesktopQualityBox from './policyRow/HomeDesktopQualityBox';
+import HomeDesktopBlogRow from './blogRow/HomeDesktopBlogRow';
 
 const HomeDesktopBody = (props) => {
 	return (
@@ -29,6 +30,11 @@ const HomeDesktopBody = (props) => {
 					<HomeDesktopQualityBox setShowRoutes={props.setShowRoutes} />
 				</div>
 				<div></div>
+			</div>
+			<div></div>
+			<div></div>
+			<div id="homeDesktopBlogRow">
+				<HomeDesktopBlogRow />
 			</div>
 			<div></div>
 			<div></div>

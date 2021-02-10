@@ -1,3 +1,21 @@
+[CorregidorTech.com](https://corregidortech.azurewebsites.net/)
+
+
+## February 9, 2021
+
+<p>Adding a blog feature</p>
+<p><img src="https://raw.githubusercontent.com/sbogucki12/corregidor2020UI/main/blogFeaturegif1.gif" /></p>
+
+## February 5, 2021
+
+<p>Adding a blog feature</p>
+<p><img src="https://raw.githubusercontent.com/sbogucki12/corregidor2020UI/main/blogFeaturegif.gif" /></p>
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

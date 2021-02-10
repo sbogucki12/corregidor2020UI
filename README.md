@@ -4,12 +4,12 @@
 ## February 9, 2021
 
 <p>Adding a blog feature</p>
-<p><img src="https://raw.githubusercontent.com/sbogucki12/corregidor2020UI/blogFeaturegif1.gif" /></p>
+<p><img src="https://github.com/sbogucki12/corregidor2020UI/blob/master/blogFeaturegif1.gif" /></p>
 
 ## February 5, 2021
 
 <p>Adding a blog feature</p>
-<p><img src="https://raw.githubusercontent.com/sbogucki12/corregidor2020UI/blogFeaturegif.gif" /></p>
+<p><img src="https://github.com/sbogucki12/corregidor2020UI/blob/master/blogFeaturegif.gif" /></p>
 
 
 

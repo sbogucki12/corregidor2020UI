@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Portfolio = () => {
   return (
     <div className="portfolioContainer">
-      <div>
+      <div style={{fontFamily: "'Oswald', sans-serif"}}>
         <p>
           Corregidor Tech is your partner for designing, deploying, and
           maintaining secure, beautiful bespoke web sites and applications.

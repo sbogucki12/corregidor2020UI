@@ -1,6 +1,11 @@
 @import "../../utils/sassVariables.scss";
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,300;1,300&?family=Oswald&display=swap');
 
+.servicesText {
+    font-family: 'Oswald', sans-serif;
+    padding: 1%;
+}
+
 .portfolioContainer {
     display: flex; 
     justify-content: center;

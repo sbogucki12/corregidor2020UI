@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCogs, faLaptopCode, faPenFancy } from '@fortawesome/free-solid-svg-icons';
 import { Link } from "react-router-dom";
 import constants from "../../utils/constants";
+import Portfolio from './Portfolio';
 
 const ServicesMain = (props) => {
 	return (
@@ -11,6 +12,14 @@ const ServicesMain = (props) => {
 			<div id="servicesMainBox">
 				<div id="servicesMainTitle">
 					<h1>Services</h1>
+				</div>
+				<div>
+					<Portfolio />
+				</div>
+				<div style={{padding: "1%"}}>
+					<p>
+					Corregidor Tech is pleased to provide additional services, such as systems engineering, proposal writing, and brand development.  
+					</p>
 				</div>
 				<div id="servicesMainCardRow">
 					<div className="servicesMainCard">

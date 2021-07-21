@@ -1,5 +1,14 @@
 [CorregidorTech.com](https://corregidortech.azurewebsites.net/)
 
+## Updates
+
+**July 21, 2021:**
+
+
+<p>Updated the Services component, adding portfolio examples.</p>
+
+<p><img src="https://raw.githubusercontent.com/sbogucki12/corregidor2020UI/master/readmeFiles/servicesUpdate.jpg" /></p>
+
 
 ## February 9, 2021
 

@@ -1,7 +1,7 @@
 const blogList = [
     {
         id: 0, 
-        title: "Setting Up and Azure Function (SendGrid / HTTP Trigger)", 
+        title: "Setting Up an Azure Function (SendGrid / HTTP Trigger)", 
         url: "https://bogoodski.medium.com/setting-up-an-azure-function-sendgrid-http-trigger-cfd9c5791201", 
         author: "Steve B.",
         publicationDate: "Jul. 2, 2021"

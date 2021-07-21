@@ -1,0 +1,46 @@
+@import "../../utils/sassVariables.scss";
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,300;1,300&?family=Oswald&display=swap');
+
+.portfolioContainer {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1%;
+}
+
+.linkStyle {
+    text-decoration: none;
+    color: $color-secondary-teal;
+    font-weight: bolder;
+}
+
+.imageGridContainer {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.imageContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 1%;    
+}
+
+.imageStyle {
+    margin: 5px;
+    max-width: 80vw;
+    border: 2px solid $color-secondary-black;
+    border-radius: 3%;
+    box-shadow: -2px 2px 5px $color-secondary-teal;
+}
+
+.portfolioLinkStyle {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    -webkit-text-stroke: .5px $color-secondary-teal;
+}
